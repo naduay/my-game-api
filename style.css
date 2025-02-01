@@ -1,0 +1,74 @@
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    background: linear-gradient(to bottom, #f3e7e9, #e3eeff); /* ✅ พื้นหลังไล่สี */
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4444;
+}
+
+/* ✅ จัดให้อยู่ตรงกลาง */
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); /* ✅ 4 คอลัมน์ */
+    grid-template-rows: repeat(4, 100px);    /* ✅ 4 แถว */
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* ✅ กล่องป้ายมน + ไล่สี */
+.card {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background: linear-gradient(135deg, #ffcc33, #ff9966);
+    border-radius: 15px; /* ✅ มนขอบ */
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+/* ✅ เปลี่ยนสีตอนเปิดการ์ด */
+.flipped {
+    background: white;
+    transform: scale(1.1);
+}
+
+/* ✅ สีเขียวเมื่อจับคู่สำเร็จ */
+.matched {
+    background: #4CAF50;
+    color: white;
+    transform: scale(1);
+}
+
+/* ✅ ปุ่มเริ่มเกมใหม่ */
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #66ccff, #3399ff);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #3399ff, #0066cc);
+    transform: scale(1.1);
+}

@@ -1,0 +1,82 @@
+{
+  "playerDataset": [
+    {
+      "user_id": "user_12345",
+      "wrongAttempts": 2,
+      "alzheimersStage": "Moderate",
+      "exitCount": 5,
+      "date": "2025-01-30T10:20:00.000Z",
+      "id": "2951"
+    },
+    {
+      "id": "3760",
+      "user_id": "ee3fe7ee-3fd5-411a-8f8c-09d3a10be4d4",
+      "wrongAttempts": 21,
+      "count": 1000,
+      "severity": "Severe"
+    },
+    {
+      "id": "9492",
+      "user_id": "ee3fe7ee-3fd5-411a-8f8c-09d3a10be4d4",
+      "wrongAttempts": 21,
+      "count": 0,
+      "severity": "Severe"
+    },
+    {
+      "id": "1fb9",
+      "user_id": "ee3fe7ee-3fd5-411a-8f8c-09d3a10be4d4",
+      "wrongAttempts": 5,
+      "count": 0,
+      "severity": "Moderate"
+    },
+    {
+      "id": "f161",
+      "user_id": "ee3fe7ee-3fd5-411a-8f8c-09d3a10be4d4",
+      "wrongAttempts": 22,
+      "count": 10,
+      "severity": "Severe"
+    },
+    {
+      "id": "01f3",
+      "user_id": "ee3fe7ee-3fd5-411a-8f8c-09d3a10be4d4",
+      "wrongAttempts": 19,
+      "count": 10,
+      "severity": "Severe"
+    },
+    {
+      "id": "fe7f",
+      "user_id": "ee3fe7ee-3fd5-411a-8f8c-09d3a10be4d4",
+      "wrongAttempts": 20,
+      "count": 10,
+      "severity": "Severe"
+    },
+    {
+      "id": "9427",
+      "user_id": "ee3fe7ee-3fd5-411a-8f8c-09d3a10be4d4",
+      "wrongAttempts": 15,
+      "count": 10,
+      "severity": "Severe"
+    },
+    {
+      "id": "d42f",
+      "user_id": "ee3fe7ee-3fd5-411a-8f8c-09d3a10be4d4",
+      "wrongAttempts": 2,
+      "count": 10,
+      "severity": "Moderate"
+    },
+    {
+      "id": "ba8f",
+      "user_id": "ee3fe7ee-3fd5-411a-8f8c-09d3a10be4d4",
+      "wrongAttempts": 3,
+      "count": 10,
+      "severity": "Severe"
+    },
+    {
+      "id": "98a4",
+      "user_id": "ee3fe7ee-3fd5-411a-8f8c-09d3a10be4d4",
+      "wrongAttempts": 15,
+      "count": 10,
+      "severity": "Severe"
+    }
+  ]
+}
